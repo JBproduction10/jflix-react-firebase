@@ -43,7 +43,7 @@ export function BrowseContainer({ slides }) {
       {loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}
 
       <Header src="the-equalizer-3" dontShowOnSmallViewPort>
-        <Header.Frame>
+      <Header.Frame>
           <Header.Group>
             <Header.Logo to={ROUTES.HOME} src={logo} alt="Netflix" />
             <Header.TextLink active={category === 'series' ? 'true' : 'false'} onClick={() => setCategory('series')}>
