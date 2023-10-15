@@ -74,7 +74,7 @@ export const Meta = styled.div`
 export const Image = styled.img`
   border: 0;
   width: 100%;
-  max-width: 305px;
+  max-width: 600px;
   cursor: pointer;
   height: auto;
   padding: 0;
